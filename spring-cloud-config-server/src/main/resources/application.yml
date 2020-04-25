@@ -5,7 +5,7 @@ spring:
     config:
       server:
         git:
-          uri:
+          uri: ssh://git@github.com:tbharti/spring-cloud-config.git
   security:
     user:
       name: admin
